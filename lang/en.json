@@ -286,6 +286,12 @@
   "SKILL.TECH_USE": "Tech Use",
   "SKILL.TRADE": "Trade",
 
+  "SKILL.CONCEALMENT": "Concealment",
+  "SKILL.STEALTHMOVE": "Stealth Move",
+  "SKILL.TACTICS": "Tactics",
+  "SKILL.CLIMB": "Climb",
+  "SKILL.LITERACY": "Literacy",
+
   "SKILL.NAME": "Name",
   "SKILL.ADVANCE": "Advance",
   "SKILL.TOTAL": "Total",

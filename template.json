@@ -136,6 +136,17 @@
             "specialities": {},
             "cost": 0
           },
+          "climb": {
+            "label": "SKILL.CLIMB",
+            "characteristics": [
+              "S",
+              "T"
+            ],
+            "advance": -20,
+            "isSpecialist": false,
+            "specialities": {},
+            "cost": 0
+          },
           "command": {
             "label": "SKILL.COMMAND",
             "characteristics": [
@@ -297,6 +308,52 @@
             "specialities": {},
             "cost": 0
           },
+          "tactics": {
+            "label": "SKILL.TACTICS",
+            "characteristics": [
+              "Int",
+              "Fel"
+            ],
+            "advance": -20,
+            "isSpecialist": true,
+            "specialities": {
+              "air": {
+                "label": "Air Combat",
+                "advance": -20,
+                "cost": 0
+              },
+              "armoured": {
+                "label": "Armoured Tactics",
+                "advance": -20,
+                "cost": 0
+              },
+              "assault": {
+                "label": "Assault Doctrine",
+                "advance": -20,
+                "cost": 0
+              },
+              "defence": {
+                "label": "Defensive Doctrine",
+                "advance": -20,
+                "cost": 0
+              },
+              "orbital": {
+                "label": "Orbital Drop Procedures",
+                "advance": -20,
+                "cost": 0
+              },
+              "recon": {
+                "label": "Recon",
+                "advance": -20,
+                "cost": 0
+              },
+              "stealth": {
+                "label": "Stealth",
+                "advance": -20,
+                "cost": 0
+              }
+            }
+          },
           "forbiddenLore": {
             "label": "SKILL.FORBIDDEN_LORE",
             "characteristics": [
@@ -401,6 +458,17 @@
             "characteristics": [
               "S",
               "WP"
+            ],
+            "advance": -20,
+            "isSpecialist": false,
+            "specialities": {},
+            "cost": 0
+          },
+          "literacy": {
+            "label": "SKILL.LITERACY",
+            "characteristics": [
+              "Int",
+              "Fel"
             ],
             "advance": -20,
             "isSpecialist": false,
@@ -652,6 +720,11 @@
                 "label": "Tactica Imperialis",
                 "advance": -20,
                 "cost": 0
+              },
+              "codexastartes": {
+                "label": "Codex Astartes",
+                "advance": -20,
+                "cost": 0
               }
             }
           },
@@ -688,8 +761,8 @@
             "specialities": {},
             "cost": 0
           },
-          "stealth": {
-            "label": "SKILL.STEALTH",
+          "concealment": {
+            "label": "SKILL.CONCEALMENT",
             "characteristics": [
               "Ag",
               "Per"
@@ -699,6 +772,18 @@
             "specialities": {},
             "cost": 0
           },
+          "stealthmove": {
+            "label": "SKILL.STEALTHMOVE",
+            "characteristics": [
+              "Ag",
+              "Per"
+            ],
+            "advance": -20,
+            "isSpecialist": false,
+            "specialities": {},
+            "cost": 0
+          },
+
           "survival": {
             "label": "SKILL.SURVIVAL",
             "characteristics": [
