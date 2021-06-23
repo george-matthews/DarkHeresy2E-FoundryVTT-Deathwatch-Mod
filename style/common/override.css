@@ -237,7 +237,7 @@ text-shadow: none;
   padding: 5px;
   color: #191813;
   font-size: 14px;
-  background: #b7ac9ecc;
+  background: #a5a5a58a;
 }
 
 .chat-message.whisper {
@@ -250,7 +250,7 @@ text-shadow: none;
   width: 100%;
   height: 100%;
   resize: none;
-  background: #b7ac9ecc;
+  background: #a5a5a58a;
 }
 
 /* MISC */
